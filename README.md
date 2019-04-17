@@ -15,6 +15,28 @@ AWS IAM Policy Simulator.
 
 ----
 
+## Script requirements
+
+- Python3
+- boto3
+
+Virtual environment installation example
+
+```bash
+# Create virtual environment
+python3 -m venv polsim
+
+# Copy requirements file into new dir
+cp requirements.txt polsim/
+
+# Activate virtual environment
+cd polsim
+source bin/activate
+
+# Install requirements
+pip install -r requirements.txt
+```
+
 ## Usage
 
 - Configure your AWS access keys (~/.aws/credentials) OR run on an instance with desired role attached.
