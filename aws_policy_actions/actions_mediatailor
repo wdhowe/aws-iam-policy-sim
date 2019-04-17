@@ -1,0 +1,10 @@
+[service]
+Action = [
+                "mediatailor:ListPlaybackConfigurations",
+                "mediatailor:UntagResource",
+                "mediatailor:PutPlaybackConfiguration",
+                "mediatailor:TagResource",
+                "mediatailor:GetPlaybackConfiguration",
+                "mediatailor:DeletePlaybackConfiguration",
+                "mediatailor:ListTagsForResource"
+            ]

@@ -1,0 +1,19 @@
+[service]
+Action = [
+                "batch:DescribeJobQueues",
+                "batch:CreateComputeEnvironment",
+                "batch:CancelJob",
+                "batch:DeleteComputeEnvironment",
+                "batch:SubmitJob",
+                "batch:UpdateComputeEnvironment",
+                "batch:ListJobs",
+                "batch:DescribeComputeEnvironments",
+                "batch:DeregisterJobDefinition",
+                "batch:TerminateJob",
+                "batch:CreateJobQueue",
+                "batch:DescribeJobs",
+                "batch:RegisterJobDefinition",
+                "batch:DescribeJobDefinitions",
+                "batch:DeleteJobQueue",
+                "batch:UpdateJobQueue"
+            ]

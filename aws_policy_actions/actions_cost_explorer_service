@@ -1,0 +1,10 @@
+[service]
+Action = [
+                "ce:GetReservationUtilization",
+                "ce:GetDimensionValues",
+                "ce:GetCostAndUsage",
+                "ce:GetReservationCoverage",
+                "ce:GetReservationPurchaseRecommendation",
+                "ce:GetCostForecast",
+                "ce:GetTags"
+            ]

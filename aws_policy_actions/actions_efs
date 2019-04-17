@@ -1,0 +1,17 @@
+[service]
+Action = [
+                "elasticfilesystem:ModifyMountTargetSecurityGroups",
+                "elasticfilesystem:DescribeMountTargets",
+                "elasticfilesystem:CreateFileSystem",
+                "elasticfilesystem:CreateTags",
+                "elasticfilesystem:DeleteTags",
+                "elasticfilesystem:DescribeTags",
+                "elasticfilesystem:CreateMountTarget",
+                "elasticfilesystem:DescribeLifecycleConfiguration",
+                "elasticfilesystem:PutLifecycleConfiguration",
+                "elasticfilesystem:DescribeFileSystems",
+                "elasticfilesystem:DeleteMountTarget",
+                "elasticfilesystem:DeleteFileSystem",
+                "elasticfilesystem:DescribeMountTargetSecurityGroups",
+                "elasticfilesystem:UpdateFileSystem"
+            ]

@@ -1,0 +1,9 @@
+[service]
+Action = [
+                "kafka:CreateCluster",
+                "kafka:ListClusters",
+                "kafka:ListNodes",
+                "kafka:DeleteCluster",
+                "kafka:DescribeCluster",
+                "kafka:GetBootstrapBrokers"
+            ]

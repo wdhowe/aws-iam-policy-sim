@@ -1,0 +1,17 @@
+[service]
+Action = [
+                "cloudtrail:LookupEvents",
+                "cloudtrail:PutEventSelectors",
+                "cloudtrail:StopLogging",
+                "cloudtrail:StartLogging",
+                "cloudtrail:UpdateTrail",
+                "cloudtrail:GetTrailStatus",
+                "cloudtrail:GetEventSelectors",
+                "cloudtrail:DescribeTrails",
+                "cloudtrail:AddTags",
+                "cloudtrail:ListPublicKeys",
+                "cloudtrail:DeleteTrail",
+                "cloudtrail:CreateTrail",
+                "cloudtrail:ListTags",
+                "cloudtrail:RemoveTags"
+            ]

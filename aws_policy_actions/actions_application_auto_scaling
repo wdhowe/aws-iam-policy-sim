@@ -1,0 +1,13 @@
+[service]
+Action = [
+                "application-autoscaling:RegisterScalableTarget",
+                "application-autoscaling:DeleteScheduledAction",
+                "application-autoscaling:DescribeScalableTargets",
+                "application-autoscaling:DescribeScalingActivities",
+                "application-autoscaling:DescribeScalingPolicies",
+                "application-autoscaling:PutScalingPolicy",
+                "application-autoscaling:DescribeScheduledActions",
+                "application-autoscaling:DeleteScalingPolicy",
+                "application-autoscaling:PutScheduledAction",
+                "application-autoscaling:DeregisterScalableTarget"
+            ]

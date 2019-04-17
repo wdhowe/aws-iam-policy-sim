@@ -1,0 +1,6 @@
+[service]
+Action = [
+                "pricing:DescribeServices",
+                "pricing:GetAttributeValues",
+                "pricing:GetProducts"
+            ]

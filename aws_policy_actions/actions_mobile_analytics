@@ -1,0 +1,6 @@
+[service]
+Action = [
+                "mobileanalytics:PutEvents",
+                "mobileanalytics:GetFinancialReports",
+                "mobileanalytics:GetReports"
+            ]

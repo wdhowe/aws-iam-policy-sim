@@ -1,0 +1,9 @@
+[service]
+Action = [
+                "autoscaling-plans:DescribeScalingPlans",
+                "autoscaling-plans:UpdateScalingPlan",
+                "autoscaling-plans:DeleteScalingPlan",
+                "autoscaling-plans:GetScalingPlanResourceForecastData",
+                "autoscaling-plans:DescribeScalingPlanResources",
+                "autoscaling-plans:CreateScalingPlan"
+            ]

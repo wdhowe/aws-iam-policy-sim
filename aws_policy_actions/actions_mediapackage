@@ -1,0 +1,17 @@
+[service]
+Action = [
+                "mediapackage:DeleteChannel",
+                "mediapackage:CreateOriginEndpoint",
+                "mediapackage:ListTagsForResource",
+                "mediapackage:DescribeOriginEndpoint",
+                "mediapackage:UpdateChannel",
+                "mediapackage:TagResource",
+                "mediapackage:ListChannels",
+                "mediapackage:CreateChannel",
+                "mediapackage:RotateIngestEndpointCredentials",
+                "mediapackage:DeleteOriginEndpoint",
+                "mediapackage:ListOriginEndpoints",
+                "mediapackage:DescribeChannel",
+                "mediapackage:UntagResource",
+                "mediapackage:UpdateOriginEndpoint"
+            ]

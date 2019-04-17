@@ -1,0 +1,23 @@
+[service]
+Action = [
+                "mediastore:StartAccessLogging",
+                "mediastore:CreateContainer",
+                "mediastore:PutContainerPolicy",
+                "mediastore:DeleteContainer",
+                "mediastore:ListContainers",
+                "mediastore:PutLifecyclePolicy",
+                "mediastore:GetCorsPolicy",
+                "mediastore:DeleteContainerPolicy",
+                "mediastore:GetObject",
+                "mediastore:ListItems",
+                "mediastore:GetLifecyclePolicy",
+                "mediastore:StopAccessLogging",
+                "mediastore:PutCorsPolicy",
+                "mediastore:DeleteObject",
+                "mediastore:DescribeContainer",
+                "mediastore:DeleteLifecyclePolicy",
+                "mediastore:DeleteCorsPolicy",
+                "mediastore:DescribeObject",
+                "mediastore:PutObject",
+                "mediastore:GetContainerPolicy"
+            ]

@@ -1,0 +1,27 @@
+[service]
+Action = [
+                "deeplens:ListDeployments",
+                "deeplens:ListDevices",
+                "deeplens:BatchGetDevice",
+                "deeplens:BatchGetProject",
+                "deeplens:ImportProjectFromTemplate",
+                "deeplens:DeregisterDevice",
+                "deeplens:RegisterDevice",
+                "deeplens:GetDevice",
+                "deeplens:CreateDeviceCertificates",
+                "deeplens:UpdateProject",
+                "deeplens:CreateModel",
+                "deeplens:GetProject",
+                "deeplens:GetModel",
+                "deeplens:ListModels",
+                "deeplens:DeleteModel",
+                "deeplens:CreateProject",
+                "deeplens:AssociateServiceRoleToAccount",
+                "deeplens:ListProjects",
+                "deeplens:GetDeploymentStatus",
+                "deeplens:DeployProject",
+                "deeplens:RemoveProject",
+                "deeplens:DeleteProject",
+                "deeplens:BatchGetModel",
+                "deeplens:GetAssociatedResources"
+            ]

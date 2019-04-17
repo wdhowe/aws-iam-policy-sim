@@ -1,0 +1,25 @@
+[service]
+Action = [
+                "codebuild:BatchGetProjects",
+                "codebuild:DeleteWebhook",
+                "codebuild:InvalidateProjectCache",
+                "codebuild:StopBuild",
+                "codebuild:ListCuratedEnvironmentImages",
+                "codebuild:ListSourceCredentials",
+                "codebuild:UpdateWebhook",
+                "codebuild:ListBuildsForProject",
+                "codebuild:ListRepositories",
+                "codebuild:CreateWebhook",
+                "codebuild:CreateProject",
+                "codebuild:UpdateProject",
+                "codebuild:BatchGetBuilds",
+                "codebuild:ImportSourceCredentials",
+                "codebuild:ListBuilds",
+                "codebuild:BatchDeleteBuilds",
+                "codebuild:DeleteProject",
+                "codebuild:ListProjects",
+                "codebuild:StartBuild",
+                "codebuild:DeleteSourceCredentials",
+                "codebuild:PersistOAuthToken",
+                "codebuild:ListConnectedOAuthAccounts"
+            ]

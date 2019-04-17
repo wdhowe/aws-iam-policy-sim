@@ -1,0 +1,12 @@
+[service]
+Action = [
+                "signer:PutSigningProfile",
+                "signer:GetSigningProfile",
+                "signer:StartSigningJob",
+                "signer:ListSigningJobs",
+                "signer:ListSigningPlatforms",
+                "signer:ListSigningProfiles",
+                "signer:DescribeSigningJob",
+                "signer:GetSigningPlatform",
+                "signer:CancelSigningProfile"
+            ]

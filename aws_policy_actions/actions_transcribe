@@ -1,0 +1,13 @@
+[service]
+Action = [
+                "transcribe:GetVocabulary",
+                "transcribe:GetTranscriptionJob",
+                "transcribe:CreateVocabulary",
+                "transcribe:StartStreamTranscription",
+                "transcribe:StartTranscriptionJob",
+                "transcribe:UpdateVocabulary",
+                "transcribe:DeleteTranscriptionJob",
+                "transcribe:ListTranscriptionJobs",
+                "transcribe:DeleteVocabulary",
+                "transcribe:ListVocabularies"
+            ]

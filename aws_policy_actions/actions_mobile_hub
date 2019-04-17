@@ -1,0 +1,25 @@
+[service]
+Action = [
+                "mobilehub:UpdateProject",
+                "mobilehub:DescribeBundle",
+                "mobilehub:GetProjectSnapshot",
+                "mobilehub:ListBundles",
+                "mobilehub:ListAvailableFeatures",
+                "mobilehub:CreateServiceRole",
+                "mobilehub:CreateProject",
+                "mobilehub:ListProjectSnapshots",
+                "mobilehub:GetProject",
+                "mobilehub:ListAvailableRegions",
+                "mobilehub:DeleteProjectSnapshot",
+                "mobilehub:SynchronizeProject",
+                "mobilehub:ExportProject",
+                "mobilehub:ExportBundle",
+                "mobilehub:VerifyServiceRole",
+                "mobilehub:ListProjects",
+                "mobilehub:GenerateProjectParameters",
+                "mobilehub:ImportProject",
+                "mobilehub:DeleteProject",
+                "mobilehub:ListAvailableConnectors",
+                "mobilehub:DeployToStage",
+                "mobilehub:InstallBundle"
+            ]

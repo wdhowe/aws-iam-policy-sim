@@ -1,0 +1,28 @@
+[service]
+Action = [
+                "mediaconvert:DeleteQueue",
+                "mediaconvert:GetPreset",
+                "mediaconvert:ListJobs",
+                "mediaconvert:ListPresets",
+                "mediaconvert:CreateJobTemplate",
+                "mediaconvert:UpdatePreset",
+                "mediaconvert:CancelJob",
+                "mediaconvert:GetQueue",
+                "mediaconvert:DeleteJobTemplate",
+                "mediaconvert:GetJobTemplate",
+                "mediaconvert:CreateJob",
+                "mediaconvert:ListJobTemplates",
+                "mediaconvert:GetJob",
+                "mediaconvert:ListQueues",
+                "mediaconvert:ListTagsForResource",
+                "mediaconvert:DescribeEndpoints",
+                "mediaconvert:UpdateJobTemplate",
+                "mediaconvert:DeletePreset",
+                "mediaconvert:CreatePreset",
+                "mediaconvert:UpdateQueue",
+                "mediaconvert:CreateQueue",
+                "mediaconvert:DisassociateCertificate",
+                "mediaconvert:UntagResource",
+                "mediaconvert:TagResource",
+                "mediaconvert:AssociateCertificate"
+            ]

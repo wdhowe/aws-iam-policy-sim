@@ -1,0 +1,7 @@
+[service]
+Action = [
+                "ssmmessages:CreateDataChannel",
+                "ssmmessages:OpenDataChannel",
+                "ssmmessages:OpenControlChannel",
+                "ssmmessages:CreateControlChannel"
+            ]

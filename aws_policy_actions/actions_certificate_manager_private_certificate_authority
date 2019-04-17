@@ -1,0 +1,23 @@
+[service]
+Action = [
+                "acm-pca:ImportCertificateAuthorityCertificate",
+                "acm-pca:TagCertificateAuthority",
+                "acm-pca:ListTags",
+                "acm-pca:GetCertificate",
+                "acm-pca:UntagCertificateAuthority",
+                "acm-pca:GetCertificateAuthorityCertificate",
+                "acm-pca:RevokeCertificate",
+                "acm-pca:UpdateCertificateAuthority",
+                "acm-pca:ListCertificateAuthorities",
+                "acm-pca:DescribeCertificateAuthorityAuditReport",
+                "acm-pca:CreateCertificateAuthorityAuditReport",
+                "acm-pca:RestoreCertificateAuthority",
+                "acm-pca:IssueCertificate",
+                "acm-pca:CreateCertificateAuthority",
+                "acm-pca:GetCertificateAuthorityCsr",
+                "acm-pca:DeletePermission",
+                "acm-pca:DescribeCertificateAuthority",
+                "acm-pca:CreatePermission",
+                "acm-pca:ListPermissions",
+                "acm-pca:DeleteCertificateAuthority"
+            ]

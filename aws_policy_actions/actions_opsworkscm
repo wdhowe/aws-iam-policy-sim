@@ -1,0 +1,18 @@
+[service]
+Action = [
+                "opsworks-cm:DescribeBackups",
+                "opsworks-cm:DeleteBackup",
+                "opsworks-cm:DeleteServer",
+                "opsworks-cm:UpdateServerEngineAttributes",
+                "opsworks-cm:StartMaintenance",
+                "opsworks-cm:DescribeNodeAssociationStatus",
+                "opsworks-cm:AssociateNode",
+                "opsworks-cm:CreateBackup",
+                "opsworks-cm:CreateServer",
+                "opsworks-cm:DisassociateNode",
+                "opsworks-cm:DescribeAccountAttributes",
+                "opsworks-cm:UpdateServer",
+                "opsworks-cm:DescribeEvents",
+                "opsworks-cm:RestoreServer",
+                "opsworks-cm:DescribeServers"
+            ]

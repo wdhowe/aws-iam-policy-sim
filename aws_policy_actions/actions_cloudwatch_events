@@ -1,0 +1,21 @@
+[service]
+Action = [
+                "events:PutEvents",
+                "events:DescribeRule",
+                "events:EnableRule",
+                "events:PutRule",
+                "events:TestEventPattern",
+                "events:PutPermission",
+                "events:DescribeEventBus",
+                "events:TagResource",
+                "events:DeleteRule",
+                "events:PutTargets",
+                "events:ListRuleNamesByTarget",
+                "events:ListTagsForResource",
+                "events:ListRules",
+                "events:RemovePermission",
+                "events:RemoveTargets",
+                "events:ListTargetsByRule",
+                "events:UntagResource",
+                "events:DisableRule"
+            ]

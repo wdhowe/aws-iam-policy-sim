@@ -1,0 +1,24 @@
+[service]
+Action = [
+                "datapipeline:PutAccountLimits",
+                "datapipeline:PutPipelineDefinition",
+                "datapipeline:ListPipelines",
+                "datapipeline:SetStatus",
+                "datapipeline:QueryObjects",
+                "datapipeline:DescribeObjects",
+                "datapipeline:ReportTaskRunnerHeartbeat",
+                "datapipeline:DeactivatePipeline",
+                "datapipeline:ReportTaskProgress",
+                "datapipeline:ValidatePipelineDefinition",
+                "datapipeline:GetPipelineDefinition",
+                "datapipeline:DescribePipelines",
+                "datapipeline:CreatePipeline",
+                "datapipeline:GetAccountLimits",
+                "datapipeline:EvaluateExpression",
+                "datapipeline:SetTaskStatus",
+                "datapipeline:AddTags",
+                "datapipeline:RemoveTags",
+                "datapipeline:DeletePipeline",
+                "datapipeline:PollForTask",
+                "datapipeline:ActivatePipeline"
+            ]

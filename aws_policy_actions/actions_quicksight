@@ -1,0 +1,25 @@
+[service]
+Action = [
+                "quicksight:CreateReader",
+                "quicksight:CreateGroup",
+                "quicksight:DeleteGroup",
+                "quicksight:GetDashboardEmbedUrl",
+                "quicksight:ListUserGroups",
+                "quicksight:CreateAdmin",
+                "quicksight:DescribeUser",
+                "quicksight:CreateGroupMembership",
+                "quicksight:ListUsers",
+                "quicksight:SetGroupMapping",
+                "quicksight:SearchDirectoryGroups",
+                "quicksight:ListGroups",
+                "quicksight:CreateUser",
+                "quicksight:DeleteUser",
+                "quicksight:DeleteGroupMembership",
+                "quicksight:UpdateGroup",
+                "quicksight:DescribeGroup",
+                "quicksight:GetGroupMapping",
+                "quicksight:Unsubscribe",
+                "quicksight:RegisterUser",
+                "quicksight:ListGroupMemberships",
+                "quicksight:Subscribe"
+            ]

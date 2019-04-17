@@ -1,0 +1,21 @@
+[service]
+Action = [
+                "transfer:StopServer",
+                "transfer:TestIdentityProvider",
+                "transfer:UpdateServer",
+                "transfer:DeleteServer",
+                "transfer:CreateUser",
+                "transfer:DeleteUser",
+                "transfer:TagResource",
+                "transfer:ListServers",
+                "transfer:StartServer",
+                "transfer:ImportSshPublicKey",
+                "transfer:UntagResource",
+                "transfer:DeleteSshPublicKey",
+                "transfer:UpdateUser",
+                "transfer:DescribeServer",
+                "transfer:DescribeUser",
+                "transfer:ListUsers",
+                "transfer:ListTagsForResource",
+                "transfer:CreateServer"
+            ]

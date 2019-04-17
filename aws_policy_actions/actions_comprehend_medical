@@ -1,0 +1,5 @@
+[service]
+Action = [
+                "comprehendmedical:DetectEntities",
+                "comprehendmedical:DetectPHI"
+            ]

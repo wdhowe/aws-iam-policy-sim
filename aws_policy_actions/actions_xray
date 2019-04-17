@@ -1,0 +1,22 @@
+[service]
+Action = [
+                "xray:GetGroups",
+                "xray:GetSamplingStatisticSummaries",
+                "xray:UpdateSamplingRule",
+                "xray:DeleteSamplingRule",
+                "xray:PutTelemetryRecords",
+                "xray:GetTraceGraph",
+                "xray:GetServiceGraph",
+                "xray:DeleteGroup",
+                "xray:CreateGroup",
+                "xray:GetSamplingTargets",
+                "xray:GetGroup",
+                "xray:PutTraceSegments",
+                "xray:BatchGetTraces",
+                "xray:PutEncryptionConfig",
+                "xray:GetEncryptionConfig",
+                "xray:GetSamplingRules",
+                "xray:UpdateGroup",
+                "xray:GetTraceSummaries",
+                "xray:CreateSamplingRule"
+            ]

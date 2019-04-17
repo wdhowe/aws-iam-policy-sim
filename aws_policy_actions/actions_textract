@@ -1,0 +1,9 @@
+[service]
+Action = [
+                "textract:DetectDocumentText",
+                "textract:StartDocumentTextDetection",
+                "textract:StartDocumentAnalysis",
+                "textract:AnalyzeDocument",
+                "textract:GetDocumentTextDetection",
+                "textract:GetDocumentAnalysis"
+            ]

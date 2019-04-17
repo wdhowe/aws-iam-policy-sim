@@ -1,0 +1,7 @@
+[service]
+Action = [
+                "groundtruthlabeling:ListDatasetObjects",
+                "groundtruthlabeling:DescribeConsoleJob",
+                "groundtruthlabeling:RunFilterOrSampleDatasetJob",
+                "groundtruthlabeling:RunGenerateManifestByCrawlingJob"
+            ]

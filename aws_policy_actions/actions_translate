@@ -1,0 +1,8 @@
+[service]
+Action = [
+                "translate:DeleteTerminology",
+                "translate:GetTerminology",
+                "translate:ListTerminologies",
+                "translate:ImportTerminology",
+                "translate:TranslateText"
+            ]

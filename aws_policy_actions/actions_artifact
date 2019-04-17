@@ -1,0 +1,7 @@
+[service]
+Action = [
+                "artifact:AcceptAgreement",
+                "artifact:TerminateAgreement",
+                "artifact:Get",
+                "artifact:DownloadAgreement"
+            ]

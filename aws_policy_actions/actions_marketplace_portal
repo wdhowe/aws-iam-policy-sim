@@ -1,0 +1,8 @@
+[service]
+Action = [
+                "aws-marketplace-management:uploadFiles",
+                "aws-marketplace-management:viewMarketing",
+                "aws-marketplace-management:viewSupport",
+                "aws-marketplace-management:viewSettings",
+                "aws-marketplace-management:viewReports"
+            ]

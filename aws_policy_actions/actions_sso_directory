@@ -1,0 +1,21 @@
+[service]
+Action = [
+                "sso-directory:CreateAlias",
+                "sso-directory:ListGroupsForUser",
+                "sso-directory:DisableUser",
+                "sso-directory:UpdateUser",
+                "sso-directory:RemoveMemberFromGroup",
+                "sso-directory:EnableUser",
+                "sso-directory:UpdatePassword",
+                "sso-directory:DeleteGroup",
+                "sso-directory:ListMembersInGroup",
+                "sso-directory:CreateUser",
+                "sso-directory:DeleteUser",
+                "sso-directory:DescribeUsers",
+                "sso-directory:DescribeGroups",
+                "sso-directory:AddMemberToGroup",
+                "sso-directory:DescribeDirectory",
+                "sso-directory:VerifyEmail",
+                "sso-directory:UpdateGroup",
+                "sso-directory:CreateGroup"
+            ]

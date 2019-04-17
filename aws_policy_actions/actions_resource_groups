@@ -1,0 +1,15 @@
+[service]
+Action = [
+                "resource-groups:GetGroupQuery",
+                "resource-groups:DeleteGroup",
+                "resource-groups:SearchResources",
+                "resource-groups:CreateGroup",
+                "resource-groups:UpdateGroup",
+                "resource-groups:GetGroup",
+                "resource-groups:GetTags",
+                "resource-groups:ListGroupResources",
+                "resource-groups:ListGroups",
+                "resource-groups:UpdateGroupQuery",
+                "resource-groups:Untag",
+                "resource-groups:Tag"
+            ]

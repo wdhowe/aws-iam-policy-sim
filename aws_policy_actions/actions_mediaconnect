@@ -1,0 +1,17 @@
+[service]
+Action = [
+                "mediaconnect:GrantFlowEntitlements",
+                "mediaconnect:RevokeFlowEntitlement",
+                "mediaconnect:UpdateFlowEntitlement",
+                "mediaconnect:StartFlow",
+                "mediaconnect:CreateFlow",
+                "mediaconnect:DeleteFlow",
+                "mediaconnect:AddFlowOutputs",
+                "mediaconnect:RemoveFlowOutput",
+                "mediaconnect:ListEntitlements",
+                "mediaconnect:UpdateFlowSource",
+                "mediaconnect:DescribeFlow",
+                "mediaconnect:UpdateFlowOutput",
+                "mediaconnect:ListFlows",
+                "mediaconnect:StopFlow"
+            ]

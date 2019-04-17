@@ -1,0 +1,23 @@
+[service]
+Action = [
+                "mq:DescribeConfiguration",
+                "mq:DeleteBroker",
+                "mq:ListBrokers",
+                "mq:RebootBroker",
+                "mq:DeleteUser",
+                "mq:DescribeUser",
+                "mq:ListConfigurations",
+                "mq:CreateUser",
+                "mq:ListConfigurationRevisions",
+                "mq:CreateConfiguration",
+                "mq:DescribeBroker",
+                "mq:UpdateConfiguration",
+                "mq:ListTags",
+                "mq:DescribeConfigurationRevision",
+                "mq:UpdateUser",
+                "mq:CreateTags",
+                "mq:DeleteTags",
+                "mq:UpdateBroker",
+                "mq:CreateBroker",
+                "mq:ListUsers"
+            ]

@@ -1,0 +1,26 @@
+[service]
+Action = [
+                "route53domains:TransferDomain",
+                "route53domains:DisableDomainTransferLock",
+                "route53domains:ListTagsForDomain",
+                "route53domains:UpdateTagsForDomain",
+                "route53domains:RenewDomain",
+                "route53domains:UpdateDomainNameservers",
+                "route53domains:DisableDomainAutoRenew",
+                "route53domains:GetDomainSuggestions",
+                "route53domains:ResendContactReachabilityEmail",
+                "route53domains:ViewBilling",
+                "route53domains:DeleteTagsForDomain",
+                "route53domains:EnableDomainAutoRenew",
+                "route53domains:GetContactReachabilityStatus",
+                "route53domains:GetDomainDetail",
+                "route53domains:EnableDomainTransferLock",
+                "route53domains:GetOperationDetail",
+                "route53domains:CheckDomainAvailability",
+                "route53domains:ListDomains",
+                "route53domains:ListOperations",
+                "route53domains:RegisterDomain",
+                "route53domains:RetrieveDomainAuthCode",
+                "route53domains:UpdateDomainContactPrivacy",
+                "route53domains:UpdateDomainContact"
+            ]

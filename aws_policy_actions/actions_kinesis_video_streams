@@ -1,0 +1,18 @@
+[service]
+Action = [
+                "kinesisvideo:ListFragments",
+                "kinesisvideo:UntagStream",
+                "kinesisvideo:ListStreams",
+                "kinesisvideo:UpdateStream",
+                "kinesisvideo:DeleteStream",
+                "kinesisvideo:GetHLSStreamingSessionURL",
+                "kinesisvideo:GetDataEndpoint",
+                "kinesisvideo:GetMedia",
+                "kinesisvideo:CreateStream",
+                "kinesisvideo:PutMedia",
+                "kinesisvideo:GetMediaForFragmentList",
+                "kinesisvideo:ListTagsForStream",
+                "kinesisvideo:UpdateDataRetention",
+                "kinesisvideo:DescribeStream",
+                "kinesisvideo:TagStream"
+            ]

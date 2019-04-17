@@ -1,0 +1,23 @@
+[service]
+Action = [
+                "cloudwatch:PutDashboard",
+                "cloudwatch:PutMetricData",
+                "cloudwatch:GetDashboard",
+                "cloudwatch:GetMetricData",
+                "cloudwatch:DeleteAlarms",
+                "cloudwatch:GetMetricStatistics",
+                "cloudwatch:ListMetrics",
+                "cloudwatch:TagResource",
+                "cloudwatch:PutMetricAlarm",
+                "cloudwatch:DeleteDashboards",
+                "cloudwatch:DescribeAlarmHistory",
+                "cloudwatch:UntagResource",
+                "cloudwatch:EnableAlarmActions",
+                "cloudwatch:DisableAlarmActions",
+                "cloudwatch:DescribeAlarmsForMetric",
+                "cloudwatch:ListDashboards",
+                "cloudwatch:ListTagsForResource",
+                "cloudwatch:DescribeAlarms",
+                "cloudwatch:SetAlarmState",
+                "cloudwatch:GetMetricWidgetImage"
+            ]

@@ -1,0 +1,28 @@
+[service]
+Action = [
+                "medialive:DeleteChannel",
+                "medialive:UpdateInput",
+                "medialive:StartChannel",
+                "medialive:DescribeReservation",
+                "medialive:StopChannel",
+                "medialive:DescribeInputSecurityGroup",
+                "medialive:CreateInput",
+                "medialive:DescribeInput",
+                "medialive:DeleteReservation",
+                "medialive:BatchUpdateSchedule",
+                "medialive:DeleteInput",
+                "medialive:ListInputSecurityGroups",
+                "medialive:DescribeSchedule",
+                "medialive:ListOfferings",
+                "medialive:ListChannels",
+                "medialive:DescribeOffering",
+                "medialive:DescribeChannel",
+                "medialive:ListInputs",
+                "medialive:UpdateChannel",
+                "medialive:PurchaseOffering",
+                "medialive:UpdateInputSecurityGroup",
+                "medialive:ListReservations",
+                "medialive:DeleteInputSecurityGroup",
+                "medialive:CreateChannel",
+                "medialive:CreateInputSecurityGroup"
+            ]

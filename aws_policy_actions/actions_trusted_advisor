@@ -1,0 +1,11 @@
+[service]
+Action = [
+                "trustedadvisor:DescribeCheckRefreshStatuses",
+                "trustedadvisor:DescribeCheckSummaries",
+                "trustedadvisor:UpdateNotificationPreferences",
+                "trustedadvisor:ExcludeCheckItems",
+                "trustedadvisor:IncludeCheckItems",
+                "trustedadvisor:RefreshCheck",
+                "trustedadvisor:DescribeCheckItems",
+                "trustedadvisor:DescribeNotificationPreferences"
+            ]

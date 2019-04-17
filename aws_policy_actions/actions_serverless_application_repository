@@ -1,0 +1,17 @@
+[service]
+Action = [
+                "serverlessrepo:ListApplications",
+                "serverlessrepo:ListApplicationVersions",
+                "serverlessrepo:CreateApplication",
+                "serverlessrepo:GetApplication",
+                "serverlessrepo:CreateCloudFormationTemplate",
+                "serverlessrepo:CreateApplicationVersion",
+                "serverlessrepo:GetApplicationPolicy",
+                "serverlessrepo:SearchApplications",
+                "serverlessrepo:GetCloudFormationTemplate",
+                "serverlessrepo:UpdateApplication",
+                "serverlessrepo:ListApplicationDependencies",
+                "serverlessrepo:CreateCloudFormationChangeSet",
+                "serverlessrepo:PutApplicationPolicy",
+                "serverlessrepo:DeleteApplication"
+            ]

@@ -1,0 +1,10 @@
+[service]
+Action = [
+                "macie:ListS3Resources",
+                "macie:ListMemberAccounts",
+                "macie:DisassociateS3Resources",
+                "macie:UpdateS3Resources",
+                "macie:DisassociateMemberAccount",
+                "macie:AssociateMemberAccount",
+                "macie:AssociateS3Resources"
+            ]

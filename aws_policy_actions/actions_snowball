@@ -1,0 +1,20 @@
+[service]
+Action = [
+                "snowball:GetSnowballUsage",
+                "snowball:GetJobUnlockCode",
+                "snowball:CancelJob",
+                "snowball:UpdateCluster",
+                "snowball:DescribeAddress",
+                "snowball:ListClusterJobs",
+                "snowball:CreateJob",
+                "snowball:ListClusters",
+                "snowball:UpdateJob",
+                "snowball:DescribeAddresses",
+                "snowball:CreateAddress",
+                "snowball:CreateCluster",
+                "snowball:CancelCluster",
+                "snowball:DescribeJob",
+                "snowball:DescribeCluster",
+                "snowball:GetJobManifest",
+                "snowball:ListJobs"
+            ]

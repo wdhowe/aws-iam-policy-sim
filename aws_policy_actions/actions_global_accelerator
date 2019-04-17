@@ -1,0 +1,20 @@
+[service]
+Action = [
+                "globalaccelerator:DeleteAccelerator",
+                "globalaccelerator:DescribeAcceleratorAttributes",
+                "globalaccelerator:CreateEndpointGroup",
+                "globalaccelerator:DescribeListener",
+                "globalaccelerator:UpdateEndpointGroup",
+                "globalaccelerator:CreateAccelerator",
+                "globalaccelerator:DeleteEndpointGroup",
+                "globalaccelerator:DescribeEndpointGroup",
+                "globalaccelerator:DeleteListener",
+                "globalaccelerator:ListAccelerators",
+                "globalaccelerator:UpdateListener",
+                "globalaccelerator:UpdateAccelerator",
+                "globalaccelerator:DescribeAccelerator",
+                "globalaccelerator:UpdateAcceleratorAttributes",
+                "globalaccelerator:ListEndpointGroups",
+                "globalaccelerator:CreateListener",
+                "globalaccelerator:ListListeners"
+            ]

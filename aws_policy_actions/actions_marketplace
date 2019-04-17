@@ -1,0 +1,6 @@
+[service]
+Action = [
+                "aws-marketplace:ViewSubscriptions",
+                "aws-marketplace:Unsubscribe",
+                "aws-marketplace:Subscribe"
+            ]

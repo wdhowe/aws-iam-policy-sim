@@ -1,0 +1,21 @@
+[service]
+Action = [
+                "servicediscovery:ListServices",
+                "servicediscovery:ListOperations",
+                "servicediscovery:GetOperation",
+                "servicediscovery:DeleteNamespace",
+                "servicediscovery:ListNamespaces",
+                "servicediscovery:UpdateInstanceHeartbeatStatus",
+                "servicediscovery:CreatePrivateDnsNamespace",
+                "servicediscovery:RegisterInstance",
+                "servicediscovery:CreateService",
+                "servicediscovery:UpdateService",
+                "servicediscovery:DeregisterInstance",
+                "servicediscovery:DeleteService",
+                "servicediscovery:CreatePublicDnsNamespace",
+                "servicediscovery:GetInstancesHealthStatus",
+                "servicediscovery:GetNamespace",
+                "servicediscovery:GetInstance",
+                "servicediscovery:GetService",
+                "servicediscovery:ListInstances"
+            ]

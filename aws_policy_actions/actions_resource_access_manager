@@ -1,0 +1,18 @@
+[service]
+Action = [
+                "ram:AcceptResourceShareInvitation",
+                "ram:EnableSharingWithAwsOrganization",
+                "ram:GetResourceShareAssociations",
+                "ram:GetResourceShareInvitations",
+                "ram:ListResources",
+                "ram:GetResourceShares",
+                "ram:RejectResourceShareInvitation",
+                "ram:ListPrincipals",
+                "ram:TagResource",
+                "ram:AssociateResourceShare",
+                "ram:CreateResourceShare",
+                "ram:UntagResource",
+                "ram:DeleteResourceShare",
+                "ram:UpdateResourceShare",
+                "ram:DisassociateResourceShare"
+            ]

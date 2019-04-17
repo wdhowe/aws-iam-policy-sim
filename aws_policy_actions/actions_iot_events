@@ -1,0 +1,19 @@
+[service]
+Action = [
+                "iotevents:UpdateDetectorModel",
+                "iotevents:BatchPutMessage",
+                "iotevents:ListDetectors",
+                "iotevents:DescribeInput",
+                "iotevents:UpdateInput",
+                "iotevents:ListDetectorModelVersions",
+                "iotevents:ListDetectorModels",
+                "iotevents:PutLoggingOptions",
+                "iotevents:DeleteDetectorModel",
+                "iotevents:CreateDetectorModel",
+                "iotevents:DeleteInput",
+                "iotevents:DescribeDetector",
+                "iotevents:CreateInput",
+                "iotevents:DescribeLoggingOptions",
+                "iotevents:ListInputs",
+                "iotevents:DescribeDetectorModel"
+            ]

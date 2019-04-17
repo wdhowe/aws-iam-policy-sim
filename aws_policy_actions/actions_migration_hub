@@ -1,0 +1,19 @@
+[service]
+Action = [
+                "mgh:CreateProgressUpdateStream",
+                "mgh:AssociateDiscoveredResource",
+                "mgh:ListDiscoveredResources",
+                "mgh:ListMigrationTasks",
+                "mgh:ListCreatedArtifacts",
+                "mgh:DisassociateDiscoveredResource",
+                "mgh:DisassociateCreatedArtifact",
+                "mgh:PutResourceAttributes",
+                "mgh:DescribeMigrationTask",
+                "mgh:ListProgressUpdateStreams",
+                "mgh:ImportMigrationTask",
+                "mgh:DeleteProgressUpdateStream",
+                "mgh:NotifyApplicationState",
+                "mgh:AssociateCreatedArtifact",
+                "mgh:DescribeApplicationState",
+                "mgh:NotifyMigrationTaskState"
+            ]

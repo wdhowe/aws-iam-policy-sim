@@ -1,0 +1,6 @@
+[service]
+Action = [
+                "account:EnableRegion",
+                "account:DisableRegion",
+                "account:ListRegions"
+            ]

@@ -1,0 +1,5 @@
+[service]
+Action = [
+                "budgets:ViewBudget",
+                "budgets:ModifyBudget"
+            ]

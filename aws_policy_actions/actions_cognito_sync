@@ -1,0 +1,22 @@
+[service]
+Action = [
+                "cognito-sync:DescribeIdentityPoolUsage",
+                "cognito-sync:BulkPublish",
+                "cognito-sync:QueryRecords",
+                "cognito-sync:UnsubscribeFromDataset",
+                "cognito-sync:SubscribeToDataset",
+                "cognito-sync:GetBulkPublishDetails",
+                "cognito-sync:GetIdentityPoolConfiguration",
+                "cognito-sync:SetIdentityPoolConfiguration",
+                "cognito-sync:DescribeDataset",
+                "cognito-sync:ListIdentityPoolUsage",
+                "cognito-sync:RegisterDevice",
+                "cognito-sync:ListRecords",
+                "cognito-sync:SetCognitoEvents",
+                "cognito-sync:ListDatasets",
+                "cognito-sync:DescribeIdentityUsage",
+                "cognito-sync:GetCognitoEvents",
+                "cognito-sync:DeleteDataset",
+                "cognito-sync:SetDatasetConfiguration",
+                "cognito-sync:UpdateRecords"
+            ]

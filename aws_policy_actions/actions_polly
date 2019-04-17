@@ -1,0 +1,12 @@
+[service]
+Action = [
+                "polly:SynthesizeSpeech",
+                "polly:StartSpeechSynthesisTask",
+                "polly:ListLexicons",
+                "polly:GetSpeechSynthesisTask",
+                "polly:DeleteLexicon",
+                "polly:ListSpeechSynthesisTasks",
+                "polly:GetLexicon",
+                "polly:PutLexicon",
+                "polly:DescribeVoices"
+            ]

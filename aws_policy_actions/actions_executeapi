@@ -1,0 +1,5 @@
+[service]
+Action = [
+                "execute-api:Invoke",
+                "execute-api:InvalidateCache"
+            ]

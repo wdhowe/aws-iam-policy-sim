@@ -1,0 +1,16 @@
+[service]
+Action = [
+                "kinesisanalytics:AddApplicationOutput",
+                "kinesisanalytics:CreateApplication",
+                "kinesisanalytics:StopApplication",
+                "kinesisanalytics:UpdateApplication",
+                "kinesisanalytics:AddApplicationInput",
+                "kinesisanalytics:DescribeApplication",
+                "kinesisanalytics:DeleteApplicationReferenceDataSource",
+                "kinesisanalytics:DiscoverInputSchema",
+                "kinesisanalytics:AddApplicationReferenceDataSource",
+                "kinesisanalytics:DeleteApplication",
+                "kinesisanalytics:ListApplications",
+                "kinesisanalytics:StartApplication",
+                "kinesisanalytics:DeleteApplicationOutput"
+            ]

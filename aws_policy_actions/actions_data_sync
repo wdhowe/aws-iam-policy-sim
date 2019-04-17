@@ -1,0 +1,28 @@
+[service]
+Action = [
+                "datasync:DeleteTask",
+                "datasync:DescribeLocationEfs",
+                "datasync:ListLocations",
+                "datasync:DeleteLocation",
+                "datasync:CreateLocationNfs",
+                "datasync:StartTaskExecution",
+                "datasync:DeleteAgent",
+                "datasync:CreateLocationEfs",
+                "datasync:UpdateTask",
+                "datasync:CreateAgent",
+                "datasync:ListTagsForResource",
+                "datasync:ListTasks",
+                "datasync:CreateLocationS3",
+                "datasync:CreateTask",
+                "datasync:DescribeTaskExecution",
+                "datasync:UpdateAgent",
+                "datasync:ListAgents",
+                "datasync:ListTaskExecutions",
+                "datasync:DescribeAgent",
+                "datasync:DescribeTask",
+                "datasync:DescribeLocationS3",
+                "datasync:TagResource",
+                "datasync:UntagResource",
+                "datasync:CancelTaskExecution",
+                "datasync:DescribeLocationNfs"
+            ]

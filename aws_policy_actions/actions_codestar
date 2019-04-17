@@ -1,0 +1,22 @@
+[service]
+Action = [
+                "codestar:DescribeProject",
+                "codestar:ListTeamMembers",
+                "codestar:DeleteProject",
+                "codestar:DescribeUserProfile",
+                "codestar:UpdateTeamMember",
+                "codestar:AssociateTeamMember",
+                "codestar:CreateProject",
+                "codestar:UpdateUserProfile",
+                "codestar:DeleteExtendedAccess",
+                "codestar:PutExtendedAccess",
+                "codestar:UpdateProject",
+                "codestar:VerifyServiceRole",
+                "codestar:DeleteUserProfile",
+                "codestar:GetExtendedAccess",
+                "codestar:ListUserProfiles",
+                "codestar:DisassociateTeamMember",
+                "codestar:ListResources",
+                "codestar:ListProjects",
+                "codestar:CreateUserProfile"
+            ]

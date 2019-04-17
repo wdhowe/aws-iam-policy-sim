@@ -1,0 +1,20 @@
+[service]
+Action = [
+                "elastictranscoder:DeletePreset",
+                "elastictranscoder:UpdatePipelineNotifications",
+                "elastictranscoder:ListJobsByPipeline",
+                "elastictranscoder:UpdatePipeline",
+                "elastictranscoder:UpdatePipelineStatus",
+                "elastictranscoder:TestRole",
+                "elastictranscoder:CreatePreset",
+                "elastictranscoder:ReadPreset",
+                "elastictranscoder:ListPipelines",
+                "elastictranscoder:ReadJob",
+                "elastictranscoder:ListJobsByStatus",
+                "elastictranscoder:DeletePipeline",
+                "elastictranscoder:ReadPipeline",
+                "elastictranscoder:CreatePipeline",
+                "elastictranscoder:CancelJob",
+                "elastictranscoder:CreateJob",
+                "elastictranscoder:ListPresets"
+            ]

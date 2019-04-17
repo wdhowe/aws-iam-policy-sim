@@ -1,0 +1,24 @@
+[service]
+Action = [
+                "cognito-identity:MergeDeveloperIdentities",
+                "cognito-identity:DescribeIdentityPool",
+                "cognito-identity:ListIdentityPools",
+                "cognito-identity:CreateIdentityPool",
+                "cognito-identity:ListIdentities",
+                "cognito-identity:GetOpenIdTokenForDeveloperIdentity",
+                "cognito-identity:GetOpenIdToken",
+                "cognito-identity:GetIdentityPoolRoles",
+                "cognito-identity:GetId",
+                "cognito-identity:LookupDeveloperIdentity",
+                "cognito-identity:UntagResource",
+                "cognito-identity:SetIdentityPoolRoles",
+                "cognito-identity:UnlinkDeveloperIdentity",
+                "cognito-identity:ListTagsForResource",
+                "cognito-identity:UpdateIdentityPool",
+                "cognito-identity:UnlinkIdentity",
+                "cognito-identity:DeleteIdentities",
+                "cognito-identity:TagResource",
+                "cognito-identity:DescribeIdentity",
+                "cognito-identity:GetCredentialsForIdentity",
+                "cognito-identity:DeleteIdentityPool"
+            ]

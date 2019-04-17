@@ -1,0 +1,5 @@
+[service]
+Action = [
+                "pi:DescribeDimensionKeys",
+                "pi:GetResourceMetrics"
+            ]

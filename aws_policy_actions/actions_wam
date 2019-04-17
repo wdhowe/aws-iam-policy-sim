@@ -1,0 +1,2 @@
+[service]
+Action = [ "wam:AuthenticatePackager" ]

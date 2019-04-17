@@ -1,0 +1,15 @@
+[service]
+Action = [
+                "firehose:DescribeDeliveryStream",
+                "firehose:DeleteDeliveryStream",
+                "firehose:PutRecord",
+                "firehose:StartDeliveryStreamEncryption",
+                "firehose:CreateDeliveryStream",
+                "firehose:PutRecordBatch",
+                "firehose:ListDeliveryStreams",
+                "firehose:StopDeliveryStreamEncryption",
+                "firehose:ListTagsForDeliveryStream",
+                "firehose:TagDeliveryStream",
+                "firehose:UpdateDestination",
+                "firehose:UntagDeliveryStream"
+            ]

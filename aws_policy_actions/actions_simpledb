@@ -1,0 +1,13 @@
+[service]
+Action = [
+                "sdb:GetAttributes",
+                "sdb:BatchDeleteAttributes",
+                "sdb:DeleteDomain",
+                "sdb:PutAttributes",
+                "sdb:DeleteAttributes",
+                "sdb:Select",
+                "sdb:ListDomains",
+                "sdb:DomainMetadata",
+                "sdb:CreateDomain",
+                "sdb:BatchPutAttributes"
+            ]

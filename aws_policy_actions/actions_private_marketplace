@@ -1,0 +1,14 @@
+[service]
+Action = [
+                "aws-marketplace:StartPrivateMarketplace",
+                "aws-marketplace:CreatePrivateMarketplace",
+                "aws-marketplace:UpdatePrivateMarketplaceProfile",
+                "aws-marketplace:DisassociateProductsFromPrivateMarketplace",
+                "aws-marketplace:ListPrivateMarketplaceProducts",
+                "aws-marketplace:StopPrivateMarketplace",
+                "aws-marketplace:DescribePrivateMarketplaceStatus",
+                "aws-marketplace:CreatePrivateMarketplaceProfile",
+                "aws-marketplace:AssociateProductsWithPrivateMarketplace",
+                "aws-marketplace:DescribePrivateMarketplaceProfile",
+                "aws-marketplace:DescribePrivateMarketplaceProducts"
+            ]

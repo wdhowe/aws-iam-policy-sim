@@ -1,0 +1,14 @@
+[service]
+Action = [
+                "freertos:ListSoftwareConfigurations",
+                "freertos:DescribeSoftwareConfiguration",
+                "freertos:GetSoftwareURL",
+                "freertos:GetSoftwareURLForConfiguration",
+                "freertos:ListFreeRTOSVersions",
+                "freertos:DeleteSoftwareConfiguration",
+                "freertos:ListHardwarePlatforms",
+                "freertos:DescribeHardwarePlatform",
+                "freertos:UpdateSoftwareConfiguration",
+                "freertos:ListHardwareVendors",
+                "freertos:CreateSoftwareConfiguration"
+            ]

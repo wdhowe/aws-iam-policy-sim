@@ -1,0 +1,17 @@
+[service]
+Action = [
+                "fms:GetProtectionStatus",
+                "fms:ListPolicies",
+                "fms:DisassociateAdminAccount",
+                "fms:ListMemberAccounts",
+                "fms:GetAdminAccount",
+                "fms:PutNotificationChannel",
+                "fms:AssociateAdminAccount",
+                "fms:DeleteNotificationChannel",
+                "fms:GetPolicy",
+                "fms:GetComplianceDetail",
+                "fms:GetNotificationChannel",
+                "fms:ListComplianceStatus",
+                "fms:DeletePolicy",
+                "fms:PutPolicy"
+            ]

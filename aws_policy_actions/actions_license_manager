@@ -1,0 +1,18 @@
+[service]
+Action = [
+                "license-manager:ListLicenseConfigurations",
+                "license-manager:UntagResource",
+                "license-manager:GetServiceSettings",
+                "license-manager:UpdateLicenseConfiguration",
+                "license-manager:UpdateServiceSettings",
+                "license-manager:ListUsageForLicenseConfiguration",
+                "license-manager:ListLicenseSpecificationsForResource",
+                "license-manager:UpdateLicenseSpecificationsForResource",
+                "license-manager:CreateLicenseConfiguration",
+                "license-manager:ListResourceInventory",
+                "license-manager:DeleteLicenseConfiguration",
+                "license-manager:ListTagsForResource",
+                "license-manager:ListAssociationsForLicenseConfiguration",
+                "license-manager:GetLicenseConfiguration",
+                "license-manager:TagResource"
+            ]

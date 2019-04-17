@@ -1,0 +1,9 @@
+[service]
+Action = [
+                "sts:AssumeRole",
+                "sts:GetFederationToken",
+                "sts:DecodeAuthorizationMessage",
+                "sts:AssumeRoleWithSAML",
+                "sts:GetCallerIdentity",
+                "sts:AssumeRoleWithWebIdentity"
+            ]

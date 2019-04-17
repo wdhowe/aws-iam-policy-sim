@@ -1,0 +1,23 @@
+[service]
+Action = [
+                "sqs:DeleteMessage",
+                "sqs:GetQueueUrl",
+                "sqs:ListQueues",
+                "sqs:ChangeMessageVisibility",
+                "sqs:SendMessageBatch",
+                "sqs:UntagQueue",
+                "sqs:ReceiveMessage",
+                "sqs:SendMessage",
+                "sqs:GetQueueAttributes",
+                "sqs:ListQueueTags",
+                "sqs:TagQueue",
+                "sqs:RemovePermission",
+                "sqs:ListDeadLetterSourceQueues",
+                "sqs:AddPermission",
+                "sqs:DeleteMessageBatch",
+                "sqs:PurgeQueue",
+                "sqs:DeleteQueue",
+                "sqs:CreateQueue",
+                "sqs:ChangeMessageVisibilityBatch",
+                "sqs:SetQueueAttributes"
+            ]

@@ -1,0 +1,9 @@
+[service]
+Action = [
+                "health:DescribeAffectedEntities",
+                "health:DescribeEventAggregates",
+                "health:DescribeEventDetails",
+                "health:DescribeEventTypes",
+                "health:DescribeEvents",
+                "health:DescribeEntityAggregates"
+            ]

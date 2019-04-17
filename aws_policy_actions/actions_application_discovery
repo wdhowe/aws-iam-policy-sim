@@ -1,0 +1,28 @@
+[service]
+Action = [
+                "discovery:ListConfigurations",
+                "discovery:DescribeExportTasks",
+                "discovery:StartDataCollectionByAgentIds",
+                "discovery:DescribeTags",
+                "discovery:StartContinuousExport",
+                "discovery:DescribeAgents",
+                "discovery:DisassociateConfigurationItemsFromApplication",
+                "discovery:CreateApplication",
+                "discovery:DescribeContinuousExports",
+                "discovery:StartExportTask",
+                "discovery:AssociateConfigurationItemsToApplication",
+                "discovery:DescribeConfigurations",
+                "discovery:DescribeExportConfigurations",
+                "discovery:StartImportTask",
+                "discovery:StopDataCollectionByAgentIds",
+                "discovery:ListServerNeighbors",
+                "discovery:BatchDeleteImportData",
+                "discovery:DescribeImportTasks",
+                "discovery:ExportConfigurations",
+                "discovery:CreateTags",
+                "discovery:DeleteTags",
+                "discovery:UpdateApplication",
+                "discovery:GetDiscoverySummary",
+                "discovery:StopContinuousExport",
+                "discovery:DeleteApplications"
+            ]

@@ -1,0 +1,14 @@
+[service]
+Action = [
+                "connect:StartOutboundVoiceContact",
+                "connect:DescribeInstance",
+                "connect:CreateInstance",
+                "connect:ModifyInstance",
+                "connect:GetMetricData",
+                "connect:ListInstances",
+                "connect:GetFederationTokens",
+                "connect:GetCurrentMetricData",
+                "connect:DestroyInstance",
+                "connect:GetFederationToken",
+                "connect:StopContact"
+            ]

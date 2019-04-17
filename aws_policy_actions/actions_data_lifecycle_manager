@@ -1,0 +1,8 @@
+[service]
+Action = [
+                "dlm:CreateLifecyclePolicy",
+                "dlm:UpdateLifecyclePolicy",
+                "dlm:DeleteLifecyclePolicy",
+                "dlm:GetLifecyclePolicies",
+                "dlm:GetLifecyclePolicy"
+            ]

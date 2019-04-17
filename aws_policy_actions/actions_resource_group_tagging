@@ -1,0 +1,8 @@
+[service]
+Action = [
+                "tag:GetResources",
+                "tag:UntagResources",
+                "tag:GetTagValues",
+                "tag:GetTagKeys",
+                "tag:TagResources"
+            ]

@@ -1,0 +1,9 @@
+[service]
+Action = [
+                "importexport:CreateJob",
+                "importexport:UpdateJob",
+                "importexport:GetStatus",
+                "importexport:CancelJob",
+                "importexport:GetShippingLabel",
+                "importexport:ListJobs"
+            ]

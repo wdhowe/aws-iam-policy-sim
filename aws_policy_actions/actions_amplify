@@ -1,0 +1,23 @@
+[service]
+Action = [
+                "amplify:DeleteDomainAssociation",
+                "amplify:GetJob",
+                "amplify:ListJobs",
+                "amplify:DeleteBranch",
+                "amplify:UpdateDomainAssociation",
+                "amplify:ListDomainAssociations",
+                "amplify:CreateBranch",
+                "amplify:UpdateBranch",
+                "amplify:DeleteApp",
+                "amplify:StartJob",
+                "amplify:ListBranches",
+                "amplify:CreateDomainAssociation",
+                "amplify:ListApps",
+                "amplify:GetBranch",
+                "amplify:GetDomainAssociation",
+                "amplify:DeleteJob",
+                "amplify:CreateApp",
+                "amplify:GetApp",
+                "amplify:StopJob",
+                "amplify:UpdateApp"
+            ]

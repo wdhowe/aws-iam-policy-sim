@@ -1,0 +1,17 @@
+[service]
+Action = [
+                "support:AddAttachmentsToSet",
+                "support:AddCommunicationToCase",
+                "support:DescribeTrustedAdvisorCheckRefreshStatuses",
+                "support:CreateCase",
+                "support:DescribeCases",
+                "support:DescribeTrustedAdvisorCheckResult",
+                "support:DescribeServices",
+                "support:DescribeTrustedAdvisorChecks",
+                "support:DescribeAttachment",
+                "support:DescribeCommunications",
+                "support:ResolveCase",
+                "support:DescribeSeverityLevels",
+                "support:RefreshTrustedAdvisorCheck",
+                "support:DescribeTrustedAdvisorCheckSummaries"
+            ]

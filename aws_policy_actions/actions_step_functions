@@ -1,0 +1,25 @@
+[service]
+Action = [
+                "states:ListStateMachines",
+                "states:DescribeActivity",
+                "states:DescribeStateMachine",
+                "states:ListActivities",
+                "states:ListExecutions",
+                "states:CreateActivity",
+                "states:UpdateStateMachine",
+                "states:DeleteStateMachine",
+                "states:StopExecution",
+                "states:UntagResource",
+                "states:TagResource",
+                "states:DescribeStateMachineForExecution",
+                "states:SendTaskSuccess",
+                "states:SendTaskFailure",
+                "states:DescribeExecution",
+                "states:GetExecutionHistory",
+                "states:DeleteActivity",
+                "states:StartExecution",
+                "states:SendTaskHeartbeat",
+                "states:GetActivityTask",
+                "states:CreateStateMachine",
+                "states:ListTagsForResource"
+            ]

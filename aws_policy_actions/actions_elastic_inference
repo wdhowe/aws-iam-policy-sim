@@ -1,0 +1,2 @@
+[service]
+Action = "elastic-inference:Connect"

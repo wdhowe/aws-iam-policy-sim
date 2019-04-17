@@ -1,0 +1,16 @@
+[service]
+Action = [
+                "cloud9:DeleteEnvironmentMembership",
+                "cloud9:UpdateEnvironment",
+                "cloud9:DescribeEnvironmentStatus",
+                "cloud9:CreateEnvironmentEC2",
+                "cloud9:DescribeEnvironments",
+                "cloud9:DeleteEnvironment",
+                "cloud9:ValidateEnvironmentName",
+                "cloud9:CreateEnvironmentSSH",
+                "cloud9:ListEnvironments",
+                "cloud9:GetUserPublicKey",
+                "cloud9:UpdateEnvironmentMembership",
+                "cloud9:DescribeEnvironmentMemberships",
+                "cloud9:CreateEnvironmentMembership"
+            ]

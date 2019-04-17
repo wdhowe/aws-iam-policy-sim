@@ -1,0 +1,14 @@
+[service]
+Action = [
+                "fsx:DescribeFileSystems",
+                "fsx:DescribeBackups",
+                "fsx:DeleteBackup",
+                "fsx:ListTagsForResource",
+                "fsx:CreateFileSystem",
+                "fsx:UntagResource",
+                "fsx:CreateBackup",
+                "fsx:TagResource",
+                "fsx:UpdateFileSystem",
+                "fsx:DeleteFileSystem",
+                "fsx:CreateFileSystemFromBackup"
+            ]

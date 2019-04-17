@@ -1,0 +1,6 @@
+[service]
+Action = [
+                "wellarchitected:ListWorkloads",
+                "wellarchitected:GetWorkload",
+                "wellarchitected:CreateWorkload"
+            ]

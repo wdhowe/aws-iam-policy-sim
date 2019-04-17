@@ -1,0 +1,11 @@
+[service]
+Action = [
+                "sms-voice:GetConfigurationSetEventDestinations",
+                "sms-voice:UpdateConfigurationSetEventDestination",
+                "sms-voice:CreateConfigurationSet",
+                "sms-voice:SendVoiceMessage",
+                "sms-voice:DeleteConfigurationSet",
+                "sms-voice:CreateConfigurationSetEventDestination",
+                "sms-voice:ListConfigurationSets",
+                "sms-voice:DeleteConfigurationSetEventDestination"
+            ]

@@ -1,0 +1,9 @@
+[service]
+Action = [
+                "ec2messages:DeleteMessage",
+                "ec2messages:GetEndpoint",
+                "ec2messages:FailMessage",
+                "ec2messages:AcknowledgeMessage",
+                "ec2messages:SendReply",
+                "ec2messages:GetMessages"
+            ]

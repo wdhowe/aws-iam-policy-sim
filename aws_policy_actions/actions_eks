@@ -1,0 +1,10 @@
+[service]
+Action = [
+                "eks:DeleteCluster",
+                "eks:UpdateClusterVersion",
+                "eks:ListUpdates",
+                "eks:DescribeUpdate",
+                "eks:DescribeCluster",
+                "eks:ListClusters",
+                "eks:CreateCluster"
+            ]

@@ -1,0 +1,6 @@
+[service]
+Action = [
+                "aws-marketplace:DescribeBuilds",
+                "aws-marketplace:StartBuild",
+                "aws-marketplace:ListBuilds"
+            ]

@@ -1,0 +1,20 @@
+[service]
+Action = [
+                "shield:UpdateEmergencyContactSettings",
+                "shield:DeleteSubscription",
+                "shield:DescribeProtection",
+                "shield:GetSubscriptionState",
+                "shield:DeleteProtection",
+                "shield:ListAttacks",
+                "shield:AssociateDRTRole",
+                "shield:DescribeAttack",
+                "shield:AssociateDRTLogBucket",
+                "shield:DisassociateDRTLogBucket",
+                "shield:CreateSubscription",
+                "shield:CreateProtection",
+                "shield:DescribeSubscription",
+                "shield:ListProtections",
+                "shield:DescribeEmergencyContactSettings",
+                "shield:DisassociateDRTRole",
+                "shield:DescribeDRTAccess"
+            ]

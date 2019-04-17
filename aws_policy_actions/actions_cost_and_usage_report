@@ -1,0 +1,6 @@
+[service]
+Action = [
+                "cur:PutReportDefinition",
+                "cur:DeleteReportDefinition",
+                "cur:DescribeReportDefinitions"
+            ]

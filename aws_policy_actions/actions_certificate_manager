@@ -1,0 +1,16 @@
+[service]
+Action = [
+                "acm:ExportCertificate",
+                "acm:DeleteCertificate",
+                "acm:UpdateCertificateOptions",
+                "acm:AddTagsToCertificate",
+                "acm:RenewCertificate",
+                "acm:ListTagsForCertificate",
+                "acm:DescribeCertificate",
+                "acm:RequestCertificate",
+                "acm:RemoveTagsFromCertificate",
+                "acm:ResendValidationEmail",
+                "acm:GetCertificate",
+                "acm:ListCertificates",
+                "acm:ImportCertificate"
+            ]

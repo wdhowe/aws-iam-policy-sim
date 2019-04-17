@@ -1,0 +1,10 @@
+[service]
+Action = [
+                "aws-portal:ModifyBilling",
+                "aws-portal:ViewPaymentMethods",
+                "aws-portal:ModifyAccount",
+                "aws-portal:ViewAccount",
+                "aws-portal:ModifyPaymentMethods",
+                "aws-portal:ViewBilling",
+                "aws-portal:ViewUsage"
+            ]

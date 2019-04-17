@@ -1,0 +1,21 @@
+[service]
+Action = [
+                "worklink:CreateFleet",
+                "worklink:UpdateDevicePolicyConfiguration",
+                "worklink:DeleteFleet",
+                "worklink:DescribeCompanyNetworkConfiguration",
+                "worklink:UpdateFleetMetadata",
+                "worklink:DisassociateWebsiteCertificateAuthority",
+                "worklink:ListWebsiteCertificateAuthorities",
+                "worklink:ListDevices",
+                "worklink:DescribeIdentityProviderConfiguration",
+                "worklink:ListFleets",
+                "worklink:DescribeDevice",
+                "worklink:UpdateIdentityProviderConfiguration",
+                "worklink:AssociateWebsiteCertificateAuthority",
+                "worklink:UpdateCompanyNetworkConfiguration",
+                "worklink:DescribeFleetMetadata",
+                "worklink:DescribeWebsiteCertificateAuthority",
+                "worklink:SignOutUser",
+                "worklink:DescribeDevicePolicyConfiguration"
+            ]
