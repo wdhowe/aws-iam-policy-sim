@@ -118,7 +118,7 @@ In order to create/update the action files:
   - If any resource types are required, click "Resources", then select "All resources"
   - At the top, click the "JSON" tab
   - Copy from "Action"  to the ending ']' that completes the Action part of the JSON.
-  - Paste into action the file (replacing all contents if it already exists)
+  - Paste into the action file (replacing all contents if it already exists)
   - Run the clean-actions script against the file
 
 ```bash
