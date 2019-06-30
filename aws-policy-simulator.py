@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-# Title: AWS Policy Simulator
-# Description: Check if provided service actions are allowed for an AWS user
-# Author: Bill Howe
-# Date: See 'git log -p <filename>'
-# Recent Changes: See 'git log -p <filename>'
+"""
+Title: AWS Policy Simulator
+Description: Check if provided service actions are allowed for an AWS user
+Author: Bill Howe
+Date: See 'git log -p <filename>'
+Recent Changes: See 'git log -p <filename>'
+"""
 
 #=======================
 # Import Modules
