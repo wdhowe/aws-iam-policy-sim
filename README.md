@@ -10,8 +10,8 @@ AWS IAM Policy Simulator.
 
 ## Files
 
-- aws-policy-simulator.py -> Check if provided service actions are allowed for an AWS user
-- clean-actions.sh -> Cleanup AWS IAM JSON policies in order for python config parser to use them in the aws-policy-simulator.py script.
+- aws_policy_simulator.py -> Check if provided service actions are allowed for an AWS user
+- clean-actions.sh -> Cleanup AWS IAM JSON policies in order for python config parser to use them in the aws_policy_simulator.py script.
 
 ----
 
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 - Configure your AWS access keys (~/.aws/credentials) OR run on an instance with desired role attached.
 
 ```bash
-usage: aws-policy-simulator.py [-h] [-i ID] [-u USER] [-r ROLE] -a ACTIONS
+usage: aws_policy_simulator.py [-h] [-i ID] [-u USER] [-r ROLE] -a ACTIONS
                                [-v]
 
 optional arguments:
@@ -59,7 +59,7 @@ optional arguments:
 ### Example: Single Action
 
 ```bash
-./aws-policy-simulator.py --user yoda --actions 's3:ListBucket'
+./aws_policy_simulator.py --user yoda --actions 's3:ListBucket'
 -- Policy Simulation Results --
 -> AWS Account: <id output here>
 -> User: yoda
@@ -70,7 +70,7 @@ Action Name: s3:ListBucket, Eval Decision: allowed
 ### Example: Multiple Actions
 
 ```bash
-./aws-policy-simulator.py --user yoda --actions 's3:ListBucket,s3:GetObject'
+./aws_policy_simulator.py --user yoda --actions 's3:ListBucket,s3:GetObject'
 -- Policy Simulation Results --
 -> AWS Account: <id output here>
 -> User: yoda
@@ -82,7 +82,7 @@ Action Name: s3:ListBucket, Eval Decision: allowed
 ### Example: Single service, all actions
 
 ```bash
-./aws-policy-simulator.py --user yoda --actions aws_policy_actions/actions_well_architected
+./aws_policy_simulator.py --user yoda --actions aws_policy_actions/actions_well_architected
 -- Policy Simulation Results --
 -> AWS Account: <id output here>
 -> User: yoda
@@ -99,7 +99,7 @@ Action Name: wellarchitected:ListWorkloads, Eval Decision: allowed
 mkdir results
 
 # Execute a loop and capture results
-for action in $(ls aws_policy_actions/); do ./aws-policy-simulator.py --user yoda --actions aws_policy_actions/${action} | tee results/result_${action} 2>&1 ; sleep 1 ; done
+for action in $(ls aws_policy_actions/); do ./aws_policy_simulator.py --user yoda --actions aws_policy_actions/${action} | tee results/result_${action} 2>&1 ; sleep 1 ; done
 ```
 
 Note: The sleep is used to avoid AWS rate limiting.
